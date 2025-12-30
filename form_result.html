@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sonucu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Gönderildi</h1>
+        <p><strong>Ad:</strong> {{ name }}</p>
+        <p><strong>E-posta:</strong> {{ email }}</p>
+        <p><strong>Mesaj:</strong> {{ message }}</p>
+    </div>
+</body>
+</html>
